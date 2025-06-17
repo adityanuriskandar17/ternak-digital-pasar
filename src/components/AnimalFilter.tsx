@@ -122,9 +122,9 @@ const AnimalFilter = ({ onFilterChange }: FilterProps) => {
               <SelectValue placeholder="Pilih umur" />
             </SelectTrigger>
             <SelectContent className="bg-white border-gray-200">
-              <SelectItem value="muda">Muda (< 1 tahun)</SelectItem>
+              <SelectItem value="muda">Muda (&lt; 1 tahun)</SelectItem>
               <SelectItem value="dewasa">Dewasa (1-3 tahun)</SelectItem>
-              <SelectItem value="tua">Tua (> 3 tahun)</SelectItem>
+              <SelectItem value="tua">Tua (&gt; 3 tahun)</SelectItem>
             </SelectContent>
           </Select>
         </div>
